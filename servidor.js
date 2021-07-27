@@ -9,6 +9,7 @@ const PORTA = 8082
 servidor.engine("handlebars", handlebars({defaultLayout:"main"}))
 servidor.set("view engine","handlebars")
 
+//configurando rotas
 servidor.use(express.urlencoded({extended:true}))
 servidor.use(rotas)
 
