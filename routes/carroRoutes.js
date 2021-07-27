@@ -1,6 +1,7 @@
 var express = require("express")
 var carroControlador = require("./../controllers/controladorCarro")
 
+//criando Router
 var rotas = express.Router()
 
 //rotas da API
